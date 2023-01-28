@@ -1,0 +1,30 @@
+form{
+    max-width:fit-content;
+    margin-inline: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: center;
+    font-weight: 600;
+}
+.label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+input:nth-child(11),input:nth-child(15),input:nth-child(27){
+    width: 400px;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+input[type="submit"],button{
+    appearance: none;
+    padding: 7px 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

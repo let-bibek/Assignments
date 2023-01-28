@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A04_08</title>
+    <style>
+        table{
+            border-left: 4px solid gray;
+            border-top: 4px dotted red;
+            border-right: 4px solid black;
+            border-bottom: 4px dashed blue;
+        }
+        td,th{
+            border-right: 1px solid black;
+            border-top: 1px solid red;
+            border-left: 1px solid gray;
+            border-bottom: 1px solid blue;
+        }
+        .row-2 td:nth-child(4){
+            border: none;
+        }
+        div{
+            border: 1px dashed green;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>A04_08</h1></center>
+    <table>
+        <caption>Fruit Juice Drinks</caption>
+        <thead>
+            <tr class="top-row">
+                <th></th>
+                <th>Apple</th>
+                <th>Orange</th>
+                <th>Screwdriver</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row-2">
+                <th>Breakfast</th>
+                <td>0</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr class="row-3">
+                <th>Lunch</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr class="row-4">
+                <th>Dinner</th>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div>Now is the time for all good Web programmers to learn to use style sheet.</div>
+</body>
+</html>

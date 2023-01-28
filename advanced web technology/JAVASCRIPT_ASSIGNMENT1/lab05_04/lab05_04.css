@@ -1,0 +1,85 @@
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    padding: 1em;
+}
+.img{
+    max-width: 100%;
+}
+.img img{
+    display: block;
+    max-width: 400px;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.quantity{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.quantity h1{
+    margin: 0;
+    font-size: 1.5em;
+}
+.quantity input{
+    width: 45px;
+    aspect-ratio: 1/1.04;
+    border-top: 1px solid rgb(144, 143, 143);
+    border-bottom: 1px solid rgb(144, 143, 143);
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 1.2em;
+    text-align: center;
+}
+.quantity span button{
+    width: 48px;
+    aspect-ratio: 1/1;
+    border: 1px solid rgb(144, 143, 143);
+   font-weight: 600;
+   font-size: 1.2em;
+}
+.calculation{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#discount{
+    padding: 0.5em;
+}
+.calculation label{
+    font-size: 1.2em;
+}
+.disAmount{
+    border: 1px solid rgb(86, 85, 85);
+    padding: 0.5em;
+}
+.disAmount div{
+    width: 100%;
+    font-size: 1.2em;
+}
+.disAmount div:nth-child(1){
+    font-weight: 600;
+}
+.disAmount div:nth-child(2){
+    text-align: right;
+    font-weight: 600;
+}

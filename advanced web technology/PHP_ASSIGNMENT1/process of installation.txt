@@ -1,0 +1,8 @@
+*****************************************BY BIBEK SHRESTHA**************************************************************
+
+RUN THESE QUERIES ON YOUR BROWER AFTER OPENING XAMPP OR WAMPP >>MYSQL ADMIN >>SQL:
+
+CREATE DATABASE human_database;
+
+CREATE TABLE users(id INT PRIMARY KEY AUTO_INCREMENT,userid VARCHAR(40) NOT NULL, userpassword VARCHAR(40) NOT NULL, fname VARCHAR(100) NOT NULL, useraddress VARCHAR(100), country VARCHAR NOT NULL,zip INT NOT NULL,email VARCHAR(100) NOT NULL,sex VARCHAR(40) NOT NULL, userlanguage VARCHAR(40) NOT NULL, about TEXT);
+

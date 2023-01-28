@@ -1,0 +1,41 @@
+body {
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.timer {
+  font-weight: 600;
+}
+input {
+  padding: 0.2em;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  font-size: 1.2em;
+}
+button {
+  padding: 0.4em 0.8em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  appearance: none;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  opacity: 0.9;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 1;
+}
+.btn1 {
+  background-color: green;
+}
+.btn2 {
+  background-color: red;
+}
+
+/* !coded by BIBEK SHRESTHA! */

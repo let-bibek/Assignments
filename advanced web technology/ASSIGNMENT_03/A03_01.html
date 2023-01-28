@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Write HTML code that matches the below image.</title>
+  </head>
+  <body>
+    <center>
+      <h1>Q1. Write HTML code that matches the below image.</h1>
+      <table border="1">
+        <caption style="caption-side: bottom;">
+          Price of Fruit
+        </caption>
+        
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    <img src="../ASSIGNMENT_02/A02_04/PU.jpg" alt="">
+                </th>
+                <th colspan="4">
+                    <h1>camelid comparision</h1>
+                </th>
+            </tr>
+            <tr>
+                <th valign="bottom">#of hump</th>
+                <th>#of hump</th>
+                <th>#of hump</th>
+                <th>produces wools</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Camels</th>
+                <td>2</td>
+                <td>african camels</td>
+                <td rowspan="2" align="right">llama</td>
+                <td rowspan="2" align="center" valign="bottom">llama</td>
+
+            </tr>
+            <tr>
+                <th>Llamas</th>
+                <td>1</td>
+                <td>mountain anders</td>
+            </tr>
+        </tbody>
+      </table>
+      <form action="form.php" method="POST" onsubmit="return validateForm()">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    </center>
+    <script>
+        const name=document.getElementById("name").value;
+        const password=document.getElementById("password").value;
+        function validateForm(){
+            if(name.length!=0&&name.match(/^[a-zA-Z0-9+_.-]+@pu\.edu\.np$/)){
+                return true
+            }
+            else{
+                alert('name is not valid');
+                return false;
+            }
+        }
+    </script>
+  </body>
+</html>

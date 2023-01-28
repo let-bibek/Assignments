@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('./lab05_03.css');</style>
+    <title>lab05_03</title>
+</head>
+<body>
+    <center><h1>lab05_03</h1></center>
+    <form action="a.php" method="get" id="myForm">
+        <p>Use tab keys to move from one input field to the next.</p>
+        <label for="uId" class="label">User Id:</label>
+        <input type="text" name="uId" id="uId">
+        <br><br>
+        <label for="password" class="label">Password:</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="fName" class="label">First Name:</label>
+        <input type="text" name="fName" id="fName">
+        <br><br>
+        <label for="address" class="label">Address:</label>
+        <input type="text" name="address" id="address">
+        <br><br>
+        <label for="country" class="label">Country:</label>
+        <select name="country" id="country">
+            <option >Please select a country</option>
+            <option value="Australia" selected>Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">USA</option>
+        </select>
+        <br><br>
+        <label for="zip" class="label">ZIP Code:</label>
+        <input type="text" name="zip" id="zip">
+        <br><br>
+        <label for="email" class="label">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="sex" class="label">Sex:</label>
+        <input type="radio" name="sex" value="male" id="smale" > <label for="smale">Male</label>
+        <input type="radio" name="sex" value="female" id="sfemale" > <label for="sfemale">Female</label>
+        <br><br>
+        <label for="language" class="label">Language:</label>
+        <input type="checkbox" name="english" id="english" value="english"> <label for="english">English</label>
+        <input type="checkbox" name="nonenglish" id="nonenglish" value="nonenglish"> <label for="nonenglish">Non English</label>
+        <br><br>
+        <label for="about" class="label">About:</label>
+        <textarea name="about" id="about" cols="50" rows="10"></textarea>
+        <br><br>
+    </form>
+    <div><input type="submit" value="Submit" id="submit">
+        <button id="resetbtn">Reset</button>
+    </div>
+    <script src="./lab05_03.js"></script>
+</body>
+</html>

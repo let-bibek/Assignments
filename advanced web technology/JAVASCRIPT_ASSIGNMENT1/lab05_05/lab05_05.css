@@ -1,0 +1,18 @@
+.mult-table-container {
+  border: 1px solid #000;
+  width: fit-content;
+  margin-inline: auto;
+}
+.has-border {
+  border-bottom: 1px solid #000;
+  padding: 1em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+.mult-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0;
+}
+/* ! https://bibekshrestha.info.np/ */
